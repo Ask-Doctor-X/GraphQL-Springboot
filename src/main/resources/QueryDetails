@@ -1,0 +1,32 @@
+Mutation Query :
+mutation{
+   addBook(book : {name :"Spring cloud in Action",
+     publisher : "System Bolaget" ,
+     authorId : 1}){
+     bookId
+     }
+}
+
+Queries :
+query{
+  authorById(id :1){
+    books{
+      name
+      bookId
+      publisher
+    }
+  }
+}
+
+query{
+  authors{
+    name
+    authorId
+    books{
+      name
+      bookId
+      publisher
+    }
+  }
+}
+
