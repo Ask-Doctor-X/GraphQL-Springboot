@@ -1,5 +1,5 @@
 # GraphSql-Springboot
-Graph-SQL Implementation using Springboot Framework using Java
+GraphQL Implementation using Springboot Framework using Java
 This is a boiler plate GraphSql project which aims to perform CRUD operations on H2 in memory DB.
 
 * The api client used it GraphSqil which an inbuilt tool for testing GraphSQL calls.
